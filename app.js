@@ -9,7 +9,7 @@ const { MongoClient } = require("mongodb");
 const app = express();
 
 mongoose.connect(
-  "mongodb+srv://vy80032:vipin.2210@cluster0.fctgrkx.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://userid:password@cluster0.fctgrkx.mongodb.net/?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
